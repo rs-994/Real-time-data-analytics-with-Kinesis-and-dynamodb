@@ -1,4 +1,4 @@
-##Real time data analytics with Kinesis and Dynamodb
+# Real time data analytics with Kinesis and Dynamodb
 
 
 This real time streaming pipeline aims to capture data changes in Dynamodb using Kinesis Data
@@ -8,11 +8,11 @@ Architecture Diagram
 
 <img width="1098" height="511" alt="image" src="https://github.com/user-attachments/assets/298c2671-e29c-411b-a90b-a0e6f7b2ed43" />
 
-Step 1: Create records in Dynamodb using Python script.
+## Step 1: Create records in Dynamodb using Python script.
 Python with boto3 pushes data to dynamodb.
 <img width="975" height="428" alt="image" src="https://github.com/user-attachments/assets/438b4bae-8c42-4e2d-9ec1-22f27d771ffa" />
 
-Step 2: Deliver stream of data to Kinesis Data Stream
+## Step 2: Deliver stream of data to Kinesis Data Stream
 The stream is then delivered by EventBridge pipe to Kinesis Data stream. Setup an IAM role for
 eventbridge with access to DynamoDB and Kinesis.
 
@@ -24,7 +24,7 @@ eventbridge with access to DynamoDB and Kinesis.
 
 
 
-Step 3: Create a Kinesis data stream to view the change data capture performed in DynamoDB
+## Step 3: Create a Kinesis data stream to view the change data capture performed in DynamoDB
 Choose the shard and accurate timestamp to view streamed data. Event name “Modify” implies
 the change made in data .
 <img width="975" height="416" alt="image" src="https://github.com/user-attachments/assets/45ad853a-81db-4b35-acc8-d912d1a3d4e2" />
