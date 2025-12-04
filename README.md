@@ -50,12 +50,14 @@ All kind of transformations can be done using lambda
 <img width="975" height="487" alt="image" src="https://github.com/user-attachments/assets/80077722-eb59-4b24-9f92-5d82e796ca70" />
 
 
+<img width="975" height="520" alt="image" src="https://github.com/user-attachments/assets/604ccf2a-20f3-492f-bfb6-8368540ca223" />
+
 Lambda code selects order id and other values from New image of kinesis data stream creates a
 new json and then pushes that back firehose which then dumps to S3. IAM roles for lambda
 function
 
+<img width="975" height="299" alt="image" src="https://github.com/user-attachments/assets/7c2b86a3-9b5c-468c-82db-c541b35b6bd1" />
 
-<img width="975" height="520" alt="image" src="https://github.com/user-attachments/assets/604ccf2a-20f3-492f-bfb6-8368540ca223" />
 
 IAM role for kinesis firehose
 
