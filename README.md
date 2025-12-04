@@ -1,4 +1,4 @@
-Real time data analytics with Kinesis and Dynamodb
+##Real time data analytics with Kinesis and Dynamodb
 
 
 This real time streaming pipeline aims to capture data changes in Dynamodb using Kinesis Data
